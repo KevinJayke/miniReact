@@ -7,27 +7,22 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
-import { BrowserRouter,Switch,Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Header />
-      <div className="container-fluid">
-        <div className="row">
+        <Header />
+        <div className="container-fluid">
           <div className="col">
             <Switch>
-            <Route path="/gallery" component={Gallery} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/" component={Home} />
+              <Route path="/gallery" component={Gallery} />
+              <Route path="/contact" component={Contact} />
+              <Route path="/" component={Home} />
             </Switch>
           </div>
-          <div className="col">
-            Column
-          </div>
         </div>
-      </div>
       </BrowserRouter>
       <Footer />
     </div>
