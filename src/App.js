@@ -3,17 +3,35 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Gallery from './pages/Gallery';
+import Contact from './pages/Contact';
+import { BrowserRouter,Switch,Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <section>
-        <div className="container-fluid">
-          <div className="row">Content</div>
+      <BrowserRouter>
+      <Header />
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col">
+            <Switch>
+            <Route path="/gallery" component={Gallery} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/" component={Home} />
+            </Switch>
+          </div>
+          <div className="col">
+            Column
+          </div>
         </div>
-      </section>
+      </div>
+      </BrowserRouter>
+      <Footer />
     </div>
+
   );
 }
 
