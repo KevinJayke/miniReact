@@ -6,7 +6,7 @@ const Gallery = () => {
     const [page, setPage] = useState(2)
 
     const loadPicsum = () => {
-        fetch("https://picsum.photos/v2/list?page="+page+"&limit=6")
+        fetch("https://picsum.photos/v2/list?page=" + page + "&limit=6")
             .then(response => response.json())
             .then(data => {
                 console.log(data);
@@ -40,7 +40,7 @@ const Gallery = () => {
         <div className="container-fluid">
             <h1>Gallery</h1>
             <ListImages />
-            <Pagination page={page} setpage={setPage}/>
+            <Pagination page={page} setPage={setPage} />
         </div>
     )
 }

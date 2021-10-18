@@ -1,5 +1,5 @@
 const Footer = () => (
-    <footer className="fixed-bottom text-center text-lg-start bg-light text-muted">
+    <footer className="bottom text-center text-lg bg-dark text-muted p-4">
         <div className="container">
         Bonjour, voici mon footer
         </div>
