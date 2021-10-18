@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/miniReact/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/miniReact/static/js/main.9cd06766.chunk.js",
+    "main.js.map": "/miniReact/static/js/main.9cd06766.chunk.js.map",
+    "runtime-main.js": "/miniReact/static/js/runtime-main.aa56185c.js",
+    "runtime-main.js.map": "/miniReact/static/js/runtime-main.aa56185c.js.map",
+    "static/css/2.e6c1e8c5.chunk.css": "/miniReact/static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.395a3aeb.chunk.js": "/miniReact/static/js/2.395a3aeb.chunk.js",
+    "static/js/2.395a3aeb.chunk.js.map": "/miniReact/static/js/2.395a3aeb.chunk.js.map",
+    "static/js/3.d9c28605.chunk.js": "/miniReact/static/js/3.d9c28605.chunk.js",
+    "static/js/3.d9c28605.chunk.js.map": "/miniReact/static/js/3.d9c28605.chunk.js.map",
+    "index.html": "/miniReact/index.html",
+    "static/css/2.e6c1e8c5.chunk.css.map": "/miniReact/static/css/2.e6c1e8c5.chunk.css.map",
+    "static/css/main.ea1455b2.chunk.css.map": "/miniReact/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.395a3aeb.chunk.js.LICENSE.txt": "/miniReact/static/js/2.395a3aeb.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/miniReact/static/media/logo.6ce24c58.svg",
+    "static/media/mountain1.jpg": "/miniReact/static/media/mountain1.fb7cec08.jpg",
+    "static/media/mountain2.jpg": "/miniReact/static/media/mountain2.6b2a8642.jpg",
+    "static/media/mountain3.jpg": "/miniReact/static/media/mountain3.a3e7a908.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa56185c.js",
+    "static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.395a3aeb.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.9cd06766.chunk.js"
+  ]
+}
